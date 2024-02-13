@@ -1,11 +1,11 @@
-const express = require('express');
-const axios = require('axios');
-const app = express();
-var bodyParser = require('body-parser');
+const express = require('express')
+const axios = require('axios')
+const app = express()
+var bodyParser = require('body-parser')
 
 
 const base_url = "http://localhost:3000"
-//const base_url = "https://noderest0.proen.app.ruk-com.cloud/"
+//const base_url = "http://node58308-krittaphong.proen.app.ruk-com.cloud"
 
 app.set('view engine', 'ejs')
 app.use(bodyParser.json())
