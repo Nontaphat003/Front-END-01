@@ -2,7 +2,7 @@ const express = require('express')
 const axios = require('axios')
 const app = express()
 var bodyParser = require('body-parser')
-
+const path = require("path");
 
 //const base_url = "http://localhost:3000"
 const base_url = "http://noderest0.proen.app.ruk-com.cloud/"
